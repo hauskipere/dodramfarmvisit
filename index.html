@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>농장 방문관리 시스템</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Malgun Gothic", sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .title-box {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .title-box h1 {
+            margin: 0;
+            font-size: 30px;
+            color: #222;
+        }
+
+        .title-box p {
+            margin-top: 10px;
+            color: #666;
+            font-size: 15px;
+        }
+
+        .farm-button {
+            width: 100%;
+            padding: 18px;
+            margin-bottom: 15px;
+
+            border: none;
+            border-radius: 12px;
+
+            background-color: #2d6cdf;
+            color: white;
+
+            font-size: 18px;
+            font-weight: bold;
+
+            cursor: pointer;
+
+            transition: 0.2s;
+        }
+
+        .farm-button:hover {
+            background-color: #1f56b5;
+        }
+
+        .notice {
+            margin-top: 30px;
+            padding: 15px;
+
+            background-color: white;
+
+            border-radius: 10px;
+
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #999;
+            font-size: 13px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="title-box">
+            <h1>농장 방문관리 시스템</h1>
+            <p>방문하실 농장을 선택해주세요.</p>
+        </div>
+
+        <!-- 농장 버튼 -->
+
+        <button class="farm-button"
+            onclick="location.href='https://forms.gle/AAAAAA'">
+            A농장 방문기록
+        </button>
+
+        <button class="farm-button"
+            onclick="location.href='https://forms.gle/BBBBBB'">
+            B농장 방문기록
+        </button>
+
+        <button class="farm-button"
+            onclick="location.href='https://forms.gle/CCCCCC'">
+            C농장 방문기록
+        </button>
+
+        <button class="farm-button"
+            onclick="location.href='https://forms.gle/DDDDDD'">
+            D농장 방문기록
+        </button>
+
+        <!-- 안내문 -->
+
+        <div class="notice">
+            <strong>[방문자 안내사항]</strong><br><br>
+
+            • 농장 출입 전 반드시 방문기록을 작성해주세요.<br>
+            • 최근 타 농장 방문 여부를 정확히 입력해주세요.<br>
+            • 차량번호 및 방문 목적을 반드시 기재해주세요.<br>
+            • 방역수칙 준수 후 입장 바랍니다.
+        </div>
+
+        <div class="footer">
+            © 2026 Farm Biosecurity System
+        </div>
+
+    </div>
+
+</body>
+</html>
